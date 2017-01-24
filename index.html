@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Chess Game in JavaScript</title>
+    <script type="text/javascript">
+      if (window.console) console = {
+        log: function() {}
+      };
+    </script>
+  </head>
+  <body>
+    <header>
+      <h2>Welcome to Rapha's First Chess Game in JavaScript</h2>
+    </header>
+    <div class="FenInDiv" id="FenInDiv">
+      Fen: <br/>
+        <input type="text" name="FenIn" id="FenIn">
+        <button type="button" name="setFen" id="SetFen">Set Position</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="javascripts/defs.js"></script>
+    <script src="javascripts/main.js"></script>
+  </body>
+</html>
